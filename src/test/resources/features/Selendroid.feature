@@ -1,5 +1,5 @@
 Feature: Test
-
+@wip
   Scenario: User can add new register user
     Given User should pass onboarding screens
     And I navigate to Registration Page
@@ -15,7 +15,7 @@ Feature: Test
     Given User should pass onboarding screens
     And Click I accept adds checkbox button
     Then Verify checkbox button selected or not
-@wip
+
   Scenario: User when click display text view button , text must be appear
     Given User should pass onboarding screens
     And Click display text view button
