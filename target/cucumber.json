@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "User when click display text view button , text must be appear",
+        "description": "",
+        "id": "test;user-when-click-display-text-view-button-,-text-must-be-appear",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11864456541,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should pass onboarding screens",
+            "match": {
+              "location": "StepDefinition.user_should_pass_onboarding_screens()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 651675292,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click display text view button",
+            "match": {
+              "location": "StepDefinition.clickDisplayTextViewButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555923916,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify text must be appear",
+            "match": {
+              "location": "StepDefinition.verifyTextMustBeAppear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "Selendroid.feature"
+  }
+]
